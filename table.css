@@ -1,0 +1,116 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html , body {
+    width: 100%;
+    height: 100%;
+    background-color:silver
+    /* color: white; */
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    
+    
+}
+h1{
+    padding: 20px 0px;
+}
+
+/* main section design */
+section{
+    display: flex;
+    margin: 20px 0px;
+}
+
+img{
+    width: 40vw;
+    height: 60vh;
+    border-radius: 20px;
+}
+
+/* table design */
+.table{
+    width: 35vw;
+    height: 60vh;
+    background-color: white;
+    color: black;
+    text-align: justify;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left: 20px;
+    
+}
+/* button div design */
+.btn_section{
+    background-color: rgb(113, 112, 112); 
+    height: 5vh;
+}
+
+/* button design */
+
+.btn{
+    border: none;
+    background: none;
+    padding: 10px 20px; 
+    height: 100%;  
+    margin: 0%; 
+    font: 900;   
+    font-size: 18px; 
+      
+}
+.activ_btn{
+    background-color:white;
+    color: turquoise;   
+    border-top: 1px solid turquoise;
+    border-bottom: 1px solid turquoise;
+    font: bold;    
+}
+.btn:hover{
+    background-color:white;
+    color: turquoise;   
+    border: 1px solid turquoise;
+}
+
+/* text area design */
+.display_txt{
+    padding: 10px;
+    margin: 5px;
+}
+
+.text{
+    line-height: 25px;
+    display: none;
+}
+
+.active{
+    display: block;
+}
+h4{
+    color:turquoise;
+}
+
+@media (max-width:790px) {
+
+    section {
+    flex-direction: column;  
+}
+img{
+    width: 90vw;
+    
+}
+
+/* table design */
+.table{
+    width: 90vw;
+    height: auto;
+    margin: 10px 0px 0px 0px ;
+    
+}
+}
